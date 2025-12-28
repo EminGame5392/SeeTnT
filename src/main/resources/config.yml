@@ -1,0 +1,156 @@
+messages: #Сообщения
+  reloaded: "&aКонфигурация перезагружена!"
+  given: "&aВы выдали %amount%x TNT типа %id% игроку %player%."
+  not-found: "&cTNT с ID %id% не найден."
+  no-permission: "&cУ вас нет прав."
+  only-player: "&cТолько игрок может использовать эту команду."
+
+tnts: #Твои ТНТ
+  obsidian_tnt: #По этому имени выдаются ТНТ в команде
+    display_name: "&#F3A26Bᴏ&#F09E68б&#ED9B64ᴄ&#E99761и&#E6945Eд&#E3905Bи&#E08C57ᴀ&#DD8954ʜ&#D98551ᴏ&#D6824Eʙ&#D37E4Aы&#D07A47й &#C97341т&#C6703Dʜ&#C36C3Aт" #Настройка имени ТНТ
+    lore: #Настройка описания ТНТ
+      - "&f "
+      - "&b● Взрывает обсидиан"
+      - "&b● Повышенный радиус"
+      - "&b● Автоподжог"
+      - "&f "
+    fuse: 6 #Время до взрыва ТНТ в секундах
+    radius: 10 #Радиус взрыва
+    type: SPHERE #Тип взрыва CUBE или SPHERE
+    power: 1.0
+    auto_ignite: true #Автоматический поджог TNT после установки
+    explode_in_water: false
+    explode_in_lava: false
+    hologram: #Настройки голограммы
+      enabled: true
+      text: "&b{time} секунд до взрыва!"
+    bossbar: #Настройки BossBar
+      enabled: true
+      text: "&bДо взрыва осталось: {time} секунд!"
+      progress: true #Включить ли эффект отчета
+      bossbar-color: RED # Цвет BossBar: RED, BLUE, GREEN, YELLOW и т.д.
+    actionbar: #Настройки ActionBar
+      enabled: false
+      text: "&eТик-так {time}"
+    title: #Настройки Title
+      enabled: false
+      text: "&cБум через {time}!"
+    glow: true #Будет ли светится как зачарованный
+    whitelist_blocks: #Настройки белого листа блоков
+      enabled: true
+      blocks:
+        - "OBSIDIAN"
+    blacklist_blocks: #Настройки чёрного листа блоков
+      enabled: false
+      blocks: []
+  ultra_tnt: #По этому имени выдаются ТНТ в команде
+    display_name: "&#F3A26Bʏ&#EE9C66л&#E89660ь&#E3905Bт&#DE8A55ᴘ&#D88450ᴀ &#CE7845т&#C8723Fʜ&#C36C3Aт" #Настройка имени ТНТ
+    lore: #Настройка описания ТНТ
+      - "&f "
+      - "&b● Взрывает обсидиан"
+      - "&b● Повышенный радиус"
+      - "&b● Автоподжог"
+      - "&f "
+    fuse: 6 #Время до взрыва ТНТ в секундах
+    radius: 10 #Радиус взрыва
+    type: SPHERE #Тип взрыва CUBE или SPHERE
+    power: 1.0
+    auto_ignite: true #Автоматический поджог TNT после установки
+    explode_in_water: false
+    explode_in_lava: false
+    hologram: #Настройки голограммы
+      enabled: true
+      text: "&b{time} секунд до взрыва!"
+    bossbar: #Настройки BossBar
+      enabled: true
+      text: "&bДо взрыва осталось: {time} секунд!"
+      progress: true #Включить ли эффект отчета
+      bossbar-color: RED # Цвет BossBar: RED, BLUE, GREEN, YELLOW и т.д.
+    actionbar: #Настройки ActionBar
+      enabled: false
+      text: "&eТик-так {time}"
+    title: #Настройки Title
+      enabled: false
+      text: "&cБум через {time}!"
+    glow: true #Будет ли светится как зачарованный
+    whitelist_blocks: #Настройки белого листа блоков
+      enabled: true
+      blocks:
+        - "OBSIDIAN"
+    blacklist_blocks: #Настройки чёрного листа блоков
+      enabled: false
+      blocks: []
+  tnt_tier_white: #По этому имени выдаются ТНТ в команде
+    display_name: "&#F3A26Bт&#EF9E67ʜ&#EC9A63т &#E4915Cᴛ&#E18D58ɪ&#DD8954ᴇ&#D98551ʀ &#D27D49ᴡ&#CE7845ʜ&#CA7442ɪ&#C7703Eᴛ&#C36C3Aᴇ" #Настройка имени ТНТ
+    lore: #Настройка описания ТНТ
+      - "&f "
+      - "&b● Взрывает обсидиан"
+      - "&b● Повышенный радиус"
+      - "&b● Автоподжог"
+      - "&f "
+    fuse: 6 #Время до взрыва ТНТ в секундах
+    radius: 10 #Радиус взрыва
+    type: SPHERE #Тип взрыва CUBE или SPHERE
+    power: 1.0
+    auto_ignite: true #Автоматический поджог TNT после установки
+    explode_in_water: false
+    explode_in_lava: false
+    hologram: #Настройки голограммы
+      enabled: true
+      text: "&b{time} секунд до взрыва!"
+    bossbar: #Настройки BossBar
+      enabled: true
+      text: "&bДо взрыва осталось: {time} секунд!"
+      progress: true #Включить ли эффект отчета
+      bossbar-color: RED # Цвет BossBar: RED, BLUE, GREEN, YELLOW и т.д.
+    actionbar: #Настройки ActionBar
+      enabled: false
+      text: "&eТик-так {time}"
+    title: #Настройки Title
+      enabled: false
+      text: "&cБум через {time}!"
+    glow: true #Будет ли светится как зачарованный
+    whitelist_blocks: #Настройки белого листа блоков
+      enabled: true
+      blocks:
+        - "OBSIDIAN"
+    blacklist_blocks: #Настройки чёрного листа блоков
+      enabled: false
+      blocks: []
+  tnt_tier_black: #По этому имени выдаются ТНТ в команде
+    display_name: "&#F3A26Bт&#EF9E67ʜ&#EC9A63т &#E4915Cᴛ&#E18D58ɪ&#DD8954ᴇ&#D98551ʀ &#D27D49ʙ&#CE7845ʟ&#CA7442ᴀ&#C7703Eᴄ&#C36C3Aᴋ" #Настройка имени ТНТ
+    lore: #Настройка описания ТНТ
+      - "&f "
+      - "&b● Взрывает обсидиан"
+      - "&b● Повышенный радиус"
+      - "&b● Автоподжог"
+      - "&f "
+    fuse: 6 #Время до взрыва ТНТ в секундах
+    radius: 10 #Радиус взрыва
+    type: SPHERE #Тип взрыва CUBE или SPHERE
+    power: 1.0
+    auto_ignite: true #Автоматический поджог TNT после установки
+    explode_in_water: false
+    explode_in_lava: false
+    hologram: #Настройки голограммы
+      enabled: true
+      text: "&b{time} секунд до взрыва!"
+    bossbar: #Настройки BossBar
+      enabled: true
+      text: "&bДо взрыва осталось: {time} секунд!"
+      progress: true #Включить ли эффект отчета
+      bossbar-color: RED # Цвет BossBar: RED, BLUE, GREEN, YELLOW и т.д.
+    actionbar: #Настройки ActionBar
+      enabled: false
+      text: "&eТик-так {time}"
+    title: #Настройки Title
+      enabled: false
+      text: "&cБум через {time}!"
+    glow: true #Будет ли светится как зачарованный
+    whitelist_blocks: #Настройки белого листа блоков
+      enabled: true
+      blocks:
+        - "OBSIDIAN"
+    blacklist_blocks: #Настройки чёрного листа блоков
+      enabled: false
+      blocks: []

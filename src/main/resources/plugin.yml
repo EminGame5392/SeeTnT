@@ -1,0 +1,16 @@
+name: SeeTnT
+version: '${project.version}'
+main: ru.gdev.seetnt.SeeTnT
+api-version: '1.16'
+authors: [GDev]
+website: https://gdev.seemine.su
+depend: [ProtocolLib]
+commands:
+  seetnt:
+    description: Основная команда SeeTnT
+    usage: /seetnt reload | give <ник> <tnt_id> <кол-во>
+permissions:
+  seetnt.reload:
+    description: Перезагрузка конфига SeeTnT
+  seetnt.give:
+    description: Выдача кастомных TNT
